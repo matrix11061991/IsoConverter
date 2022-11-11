@@ -13,8 +13,7 @@ pip install IsoConverter
 ## Usage
 
 ```python
-import IsoConverter
-# from IsoConverter.go import *
+from IsoConverter.go import *
 # returns converted 'words' and returns converted Hexadecimal 8859
 x,y = HexaIso8859T1_to_Text("C2 6E 65 20 6F F9 20 42 EA 74 65"),Text_to_HexaIso8859T1("Enter")
 ```
