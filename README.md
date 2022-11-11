@@ -1,6 +1,6 @@
 # IsoConverter
 
-IsoConverter is a Python library for dealing with Iso 8859 hex  conversion.
+IsoConverter is a Python library for dealing with multiple conversion.
 
 ## Installation
 
