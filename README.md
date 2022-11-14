@@ -15,7 +15,7 @@ pip install IsoConverter
 ```python
 from IsoConverter.go import *
 # returns converted 'words' and returns converted Hexadecimal 8859
-x,y = HexaIso8859T1_to_Text("C2 6E 65 20 6F F9 20 42 EA 74 65"),Text_to_HexaIso8859T1("Enter")
+x,y,z = HexaIso8859T1_to_Text("C2 6E 65 20 6F F9 20 42 EA 74 65"),Text_to_HexaIso8859T1("Enter"),decToIeee32(17.125)
 ```
 
 ## Contributing
